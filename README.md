@@ -1,4 +1,4 @@
-# Budworm Modeling Framework
+# Budworm Addiction Modeling Framework
 
 This repository contains a collection of ecological and social simulation models implemented in Python. Originally inspired by R-based models, this framework has been restructured into a modular Python package. It focuses on population dynamics, bifurcation behavior, and socially-influenced phenomena.
 
@@ -17,11 +17,13 @@ The Budworm Modeling Framework explores:
 ## 🧭 Project Structure
 
 ```
-Budworm-modeling-framework/
+Budworm-addiction/
 ├── models/                  # Core model implementations
 │   ├── budworm_model.py             - Basic predator-prey dynamics
 │   ├── bifurcation_triple.py        - Bifurcation analysis of predator strength
 │   ├── sigmoid_social_B.py          - Social feedback on predation
+│   ├── budworm .py                  - Main budworm model code
+│   ├── N_over_t_with_sens.py        - ...
 │   ├── social_phenomena_sim.py      - Threshold-based adoption model
 │   └── vaping_and_smoking_sim.py    - Behavior switching (Markov-style)
 ├── notebooks/              # Example Jupyter notebooks
@@ -41,7 +43,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Jesse291847/Budworm-modeling-framework.git
-cd Budworm-modeling-framework
+cd Budworm-addiction
 pip install -r requirements.txt
 ```
 
@@ -84,6 +86,13 @@ jupyter notebook notebooks/budworm_model_demo.ipynb
 - A behavior switching model: users can transition between smoking, vaping, both, or neither.
 - Inspired by public health behavior models.
 
+### 🔹 `budworm.py`
+- 
+- 
+
+### 🔹 `N_over_t_with_sens.py`
+- 
+- 
 ---
 
 ## 🧪 Testing
@@ -108,6 +117,10 @@ Dependencies include:
 - `numpy`
 - `matplotlib`
 - `scipy`
+- 'pandas'
+- 'networkx'
+- 'ipywidgets'
+
 
 ---
 
